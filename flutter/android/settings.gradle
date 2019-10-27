@@ -1,0 +1,2 @@
+rootProject.name = 'rusty_flutter_lib'
+include ':rusty-android-lib-release'

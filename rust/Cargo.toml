@@ -1,0 +1,16 @@
+[package]
+name = "rustylib"
+version = "0.1.0"
+authors = ["Roberto Huertas <roberto.huertas@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "rustylib"
+# this is needed to build for iOS and Android.
+crate-type = ["staticlib", "cdylib"]
+
+# this dependency is only needed for Android.
+[target.'cfg(target_os = "android")'.dependencies]
+jni = { version = "0.13.1", default-features = false }

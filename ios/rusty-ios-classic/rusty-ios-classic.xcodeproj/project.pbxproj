@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF98FC12236623F200F42699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF98FC11236623F200F42699 /* AppDelegate.swift */; };
+		AF98FC14236623F200F42699 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF98FC13236623F200F42699 /* SceneDelegate.swift */; };
+		AF98FC16236623F200F42699 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF98FC15236623F200F42699 /* ViewController.swift */; };
+		AF98FC19236623F200F42699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF98FC17236623F200F42699 /* Main.storyboard */; };
+		AF98FC1B236623F400F42699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF98FC1A236623F400F42699 /* Assets.xcassets */; };
+		AF98FC1E236623F400F42699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF98FC1C236623F400F42699 /* LaunchScreen.storyboard */; };
+		AF98FC47236643F600F42699 /* librustylib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF98FC46236643E500F42699 /* librustylib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF98FC0E236623F200F42699 /* rusty-ios-classic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rusty-ios-classic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF98FC11236623F200F42699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF98FC13236623F200F42699 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF98FC15236623F200F42699 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF98FC18236623F200F42699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF98FC1A236623F400F42699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF98FC1D236623F400F42699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF98FC1F236623F400F42699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF98FC46236643E500F42699 /* librustylib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librustylib.a; path = ../libs/librustylib.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF98FC0B236623F200F42699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF98FC47236643F600F42699 /* librustylib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF98FC05236623F200F42699 = {
+			isa = PBXGroup;
+			children = (
+				AF98FC10236623F200F42699 /* rusty-ios-classic */,
+				AF98FC0F236623F200F42699 /* Products */,
+				AF98FC45236643E500F42699 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF98FC0F236623F200F42699 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF98FC0E236623F200F42699 /* rusty-ios-classic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF98FC10236623F200F42699 /* rusty-ios-classic */ = {
+			isa = PBXGroup;
+			children = (
+				AF98FC11236623F200F42699 /* AppDelegate.swift */,
+				AF98FC13236623F200F42699 /* SceneDelegate.swift */,
+				AF98FC15236623F200F42699 /* ViewController.swift */,
+				AF98FC17236623F200F42699 /* Main.storyboard */,
+				AF98FC1A236623F400F42699 /* Assets.xcassets */,
+				AF98FC1C236623F400F42699 /* LaunchScreen.storyboard */,
+				AF98FC1F236623F400F42699 /* Info.plist */,
+			);
+			path = "rusty-ios-classic";
+			sourceTree = "<group>";
+		};
+		AF98FC45236643E500F42699 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF98FC46236643E500F42699 /* librustylib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF98FC0D236623F200F42699 /* rusty-ios-classic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF98FC22236623F400F42699 /* Build configuration list for PBXNativeTarget "rusty-ios-classic" */;
+			buildPhases = (
+				AF98FC0A236623F200F42699 /* Sources */,
+				AF98FC0B236623F200F42699 /* Frameworks */,
+				AF98FC0C236623F200F42699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rusty-ios-classic";
+			productName = "rusty-ios-classic";
+			productReference = AF98FC0E236623F200F42699 /* rusty-ios-classic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF98FC06236623F200F42699 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = robertohuertas;
+				TargetAttributes = {
+					AF98FC0D236623F200F42699 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = AF98FC09236623F200F42699 /* Build configuration list for PBXProject "rusty-ios-classic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF98FC05236623F200F42699;
+			productRefGroup = AF98FC0F236623F200F42699 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF98FC0D236623F200F42699 /* rusty-ios-classic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF98FC0C236623F200F42699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF98FC1E236623F400F42699 /* LaunchScreen.storyboard in Resources */,
+				AF98FC1B236623F400F42699 /* Assets.xcassets in Resources */,
+				AF98FC19236623F200F42699 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF98FC0A236623F200F42699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF98FC16236623F200F42699 /* ViewController.swift in Sources */,
+				AF98FC12236623F200F42699 /* AppDelegate.swift in Sources */,
+				AF98FC14236623F200F42699 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF98FC17236623F200F42699 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF98FC18236623F200F42699 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF98FC1C236623F400F42699 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF98FC1D236623F400F42699 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF98FC20236623F400F42699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF98FC21236623F400F42699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF98FC23236623F400F42699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPE3ACJ9UZ;
+				HEADER_SEARCH_PATHS = ../include;
+				INFOPLIST_FILE = "rusty-ios-classic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = ../libs;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertohuertas.rusty-ios-classic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ../include/rustylib.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF98FC24236623F400F42699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WPE3ACJ9UZ;
+				HEADER_SEARCH_PATHS = ../include;
+				INFOPLIST_FILE = "rusty-ios-classic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = ../libs;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robertohuertas.rusty-ios-classic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ../include/rustylib.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF98FC09236623F200F42699 /* Build configuration list for PBXProject "rusty-ios-classic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF98FC20236623F400F42699 /* Debug */,
+				AF98FC21236623F400F42699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF98FC22236623F400F42699 /* Build configuration list for PBXNativeTarget "rusty-ios-classic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF98FC23236623F400F42699 /* Debug */,
+				AF98FC24236623F400F42699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF98FC06236623F200F42699 /* Project object */;
+}
